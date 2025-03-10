@@ -3,48 +3,48 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
+  position: left # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Skage Reistad
+  tagline: Student | Teknisk Assistent
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: skareistad@gmail.com
+  phone: +47 46548188
+  timezone: Europe/Norway # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Norwegian
+  # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  # linkedin: alandoe
+  # xing: alandoe
+  github: lockedintheskage
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Norwegian
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
-    - idiom: Spanish
-      level: Professional
+    # - idiom: Mandarin
+    #   level: One day
 
   interests:
     title: Interests
@@ -52,235 +52,272 @@ sidebar:
     - item: Climbing
       link:
 
-
-    - item: Snowboarding
+    - item: Dungeons & Dragons
       link:
 
-
-    - item: Cooking
+    - item: Chess
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I love everything about computers, telecommunications, and effective learning methods. Throughout my studies,
+    I have studied pedagogy and IT, with a specialization in databases. I know how to structure large amounts of data
+    with a pedagogical approach to teaching people about ICT.
+    
+    If you have a project requiring large amounts of data, or processing around 1 GB per hour, you'll need specialized
+    methods for storage and access to this data. This is what I offer, which is particularly relevant in AI projects or
+    when using sensors that provide a continuous data stream.
+    
+    I can conduct courses or presentations about technology that you either work with or use in the workplace. I am
+    adaptable to most types of information technology and can work within most sub-fields of technology. This is
+    important if you want to digitize a workplace or upgrade it with better technology, as people need to know how to
+    use their digital tools.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: MSc in Computer Science / Teaching
+    university: Norwegian University of Science and Technology in Trondheim
+    time: 2020 - Present
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Master in Teaching Natural Sciences with focus on ICT (157 credits) and mathematics (60 credits). Pedagogy (60 credits).
+      
+      Taking a teaching degree in natural sciences provides the same types of courses as a civil engineer in computer technology, 
+      but with additional courses in didactics and pedagogy.
+      
+      My master's thesis involves handling large data dumps and using them as base data for building indexing software and language models. 
+      It represents what I can contribute to Big Data, AI, and Development.
+        - Focus on ICT and mathematics
+        - Specialized in databases
+
+  - degree: High School Diploma
+    university: Fyrstikkalleen Skole
+    time: 2018 - 2020
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Secondary education, specializing in general studies. Graduated with an average grade of 5.0.
+
+  - degree: High School (First Year)
+    university: Kongshavn Skole
+    time: 2017 - 2018
+    details: |
+      First year of secondary education, specializing in general studies. Achieved an average grade of 4.75.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Technical Assistant
+    time: January 2022 - Present
+    company: NTNU, Department of Materials Technology
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Assisted in a project to build an SQL database on NTNU servers for a research project carried out in collaboration 
+        between NTNU and the Norwegian Public Roads Administration.
+      - Created an interface for this database that was developed using Java, Springboot, React, and JavaScript technologies.
+      - Conducted courses in Python and SQL for employees who needed it.
+        - Built database interfaces
+        - Developed with Java, Springboot, React
+        - Taught programming courses
+
+  - role: Learning Assistant
+    time: August 2023 - December 2023
+    company: NTNU, Department of Computer Technology
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Assisted in the basic course for Information Technology.
+        - Supported students in learning fundamentals
+        - Helped with exercises and labs
+
+  - role: Teacher
+    time: June 2021 - June 2024
+    company: REBEL and Summer School Oslo
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Worked with the summer school for several summers.
+      - Organized and taught a course on programming micro:bit robots in collaboration with companies in the REBEL building in Oslo.
+      - Students learned to build their own robots and collaborated on projects with established IT companies such as Cisco and Webstep.
+      - Continued the previous year's course by using PiCar Sunfounders on Raspberry Pi.
+        - Taught programming to students
+        - Organized collaborative projects
+        - Worked with robotics platforms
+  
+  - role: Member
+    time: January 2024 - December 2024
+    company: Cogito NTNU
+    details: |
+      - Engaged in AI-related projects, including web scrapers, genetic learning algorithms, and apps integrated with large language models.
+        - Developed web scrapers
+        - Worked with genetic algorithms
+        - Created language model applications
+
+  - role: Board Member and Leader
+    time: September 2020 - February 2025
+    company: LURDO
+    details: |
+      - Held various positions including leader of course organization and board chairman.
+      - Organized courses, game nights, tournaments, and coordinated events with other organizations.
+      - Organized and led meetings between members of the organization. These meetings could vary in size from small committees of 6 people to large ones of 20-24.
+        - Led organizational meetings
+        - Coordinated events and tournaments
+        - Managed team activities
+    
+  - role: Reference Group Member
+    time: September 2020 - December 2023
+    company: NTNU Reference Groups
+    details: |
+      - I have been part of 11 reference groups for courses at NTNU:
+        - 2020: MA1101
+        - 2021: MA1103, TDT4120, IT1901
+        - 2022: TDT4145, TDT4136, PPU4628
+        - 2023: TDT4300, TDT4150, TDT4117
+        - 2024: TDT4173
 
 certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  # title: Certifications
+  # list:
+  # - name: CV Builder
+  #   start: 2020
+  #   end: 2021
+  #   organization: Microsoft
+  #   credentialid: 111-222
+  #   credentialurl: www.google.com
+  #   credentialname: Google
+  #   details: |
+  #     Details about cert. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  #     Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+  #     fringilla vel. Ut euismod, sem sed vulputate venenatis,
+  #     justo diam viverra velit, sed rhoncus leo leo eu justo.
+  #     Suspendisse placerat risus ante, sed porta nisi blandit at.
+  # - name: Git learning
+  #   start: 2019
+  #   end:
+  #   organization: Microsoft
+  #   credentialid: 111-222
+  #   credentialurl: www.github.com
+  #   credentialname: Github
+  #   details: |
+  #     Older certification. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  # title: Projects
+  # intro: >
+  #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # assignments:
+  # - title: Velocity
+  #   link: "#hook"
+  #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  # - title: DevStudio
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  # - title: Tempo
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  # - title: Atom
+  #   link: "#"
+  #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  # - title: Delta
+  #   link: "#"
+  #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  # title: OSS Contributions
+  # intro: >
+  #   You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # contributions:
+  # - title: Tempo
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  # - title: Atom
+  #   link: "#"
+  #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  # - title: Delta
+  #   link: "#"
+  #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  # title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  # papers:
+  # - title: The Art of Computer Programming
+  #   link: "#"
+  #   authors: Donald E. Knuth
+  #   conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  #   link: "#"
+  #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+  #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  # - title: A syntax directed compiler for Algol 60
+  #   link: "#"
+  #   authors: Edgar T. Irons
+  #   conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Malene Thostrup Pedersen
+    email: malene.t.pedersen@ntnu.no
+    phone: 973 06 249
+    role: Technical Assistant Supervisor at NTNU
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+      Available upon request.
+      
+  - person: Bjørn Tumyr
+    email: bjorn@rebel.no
+    phone: 41674454
+    role: REBEL "YODA"/Project Manager
     recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      Available upon request.
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Python
     level: 95%
 
-  - name: Ruby on Rails
+  - name: Java & Springboot
+    level: 90%
+
+  - name: SQL (SQLite, MySQL)
+    level: 95%
+
+  - name: MongoDB
+    level: 80%
+
+  - name: React & JavaScript
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: C & Scala
+    level: 75%
+
+  - name: Gradle & Spark
+    level: 70%
+
+  - name: CoreNLP
+    level: 65%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
