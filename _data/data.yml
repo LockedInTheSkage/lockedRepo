@@ -10,29 +10,15 @@ sidebar:
   # Profile information
   name: Skage Reistad
   tagline: Student | Teknisk Assistent
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: skage.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: skareistad@gmail.com
   phone: +47 46548188
   timezone: Europe/Norway # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship: Norwegian
-  # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  # linkedin: alandoe
-  # xing: alandoe
   github: lockedintheskage
-  # telegram: # add your nickname without '@' sign
-  # gitlab:
-  # bitbucket:
-  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  # twitter: '@jekyllrb'
-  # stack-overflow: # Number/Username, e.g. 123456/alandoe
-  # codewars:
-  # goodreads: # Number-Username, e.g. 123456-alandoe
-  # mastodon: # Please include your full Mastodon link here.
-  # hackerrank: # Please provide your HackerRank username.
-  # leetcode: # Please provide your LeetCode username.
-  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
 
   languages:
     title: Languages
@@ -91,17 +77,6 @@ education:
         - Focus on ICT and mathematics
         - Specialized in databases
 
-  - degree: High School Diploma
-    university: Fyrstikkalleen Skole
-    time: 2018 - 2020
-    details: |
-      Secondary education, specializing in general studies. Graduated with an average grade of 5.0.
-
-  - degree: High School (First Year)
-    university: Kongshavn Skole
-    time: 2017 - 2018
-    details: |
-      First year of secondary education, specializing in general studies. Achieved an average grade of 4.75.
 
 experiences:
   title: Experiences
@@ -281,15 +256,11 @@ recommendations:
     email: malene.t.pedersen@ntnu.no
     phone: 973 06 249
     role: Technical Assistant Supervisor at NTNU
-    recommendation: |
-      Available upon request.
       
   - person: Bjørn Tumyr
     email: bjorn@rebel.no
     phone: 41674454
     role: REBEL "YODA"/Project Manager
-    recommendation: |
-      Available upon request.
 
 skills:
   title: Skills &amp; Proficiency
@@ -299,7 +270,7 @@ skills:
     level: 95%
 
   - name: Java & Springboot
-    level: 90%
+    level: 80%
 
   - name: SQL (SQLite, MySQL)
     level: 95%
@@ -310,14 +281,8 @@ skills:
   - name: React & JavaScript
     level: 85%
 
-  - name: C & Scala
-    level: 75%
-
-  - name: Gradle & Spark
+  - name: Gradle
     level: 70%
-
-  - name: CoreNLP
-    level: 65%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
