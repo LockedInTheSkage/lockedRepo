@@ -1,0 +1,376 @@
+/* ======= Base ======= */
+body {
+    //Use a very weird font for testing
+    font-family: 'Bradley Hand';
+    color: $text-color-secondary;
+    background: $smoky-white;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    /* Added line-height for better readability on headings */
+    line-height: 1.4;
+  }
+  
+  a {
+    color: darken($theme-color, 15%);
+    /* Added transition for smoother hover effects */
+    transition: all 0.3s ease;
+    &:hover {
+      text-decoration: underline;
+      color: darken($theme-color, 30%);
+    }
+    &:focus {
+      text-decoration: none;
+      /* Added outline for better accessibility */
+      outline: 2px solid lighten($theme-color, 20%);
+    }
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background: $theme-color;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    /* Added border-radius for slightly rounded corners */
+    border-radius: 6px;
+    /* Added overflow hidden to maintain border-radius with child elements */
+    overflow: hidden;
+  }
+  
+  .sidebar-wrapper {
+    grid-column: span 3;
+    order: $sidebar-order;
+    background: $theme-color;
+    color: #fff;
+    a {
+      color: #fff;
+      /* Added underline on hover only for sidebar links */
+      &:hover {
+        text-decoration: none;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
+      }
+    }
+    .profile-container {
+      padding: 30px;
+      //background: darken($theme-color, 10%);
+      background: rgba(0, 0, 0, 0.2);
+      text-align: center;
+      color: #fff;
+    }
+    .name {
+      font-size: 32px;
+      font-weight: 900;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      color: rgba(256, 256, 256, 0.6);
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .profile {
+      margin-bottom: 15px;
+    }
+  
+    .avatar {
+      //used for profile image
+      max-width: 100px;
+      margin-bottom: 15px;
+      border: 0px solid #fff;
+      border-radius: 100%;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      /* Added slight scale effect on hover for interactivity */
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    .contact-list {
+      .fas,
+      .fab,
+      .far {
+        margin-right: 5px;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      li {
+        margin-bottom: 15px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .container-block {
+      padding: 30px;
+    }
+    .container-block-title {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 15px;
+      /* Added subtle letter-spacing for titles */
+      letter-spacing: 0.5px;
+    }
+    .degree {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .education-container {
+      .item {
+        margin-bottom: 15px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      .meta {
+        color: rgba(256, 256, 256, 0.6);
+        font-weight: 500;
+        margin-bottom: 0px;
+        margin-top: 0;
+      }
+      .time {
+        color: rgba(256, 256, 256, 0.6);
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+    .languages-container {
+      .lang-desc {
+        color: rgba(256, 256, 256, 0.6);
+      }
+    }
+  
+    .languages-list {
+      margin-bottom: 0;
+      li {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  
+    .interests-list {
+      margin-bottom: 0;
+      li {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        /* Added subtle hover effect for interest items */
+        transition: transform 0.2s ease;
+        &:hover {
+          transform: translateX(3px);
+        }
+      }
+    }
+  }
+  
+  .main-wrapper {
+    grid-column: span 7;
+    order: $resume-order;
+    background: #fff;
+    padding: 60px;
+    .section-title {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 500;
+      color: darken($theme-color, 15%);
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 20px;
+      /* Added bottom border for section titles */
+      padding-bottom: 8px;
+      border-bottom: 1px solid lighten($theme-color, 30%);
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+  
+    .experiences-section,
+    .recommendations-section,
+    .educations-section {
+      .item {
+        margin-bottom: 30px;
+        /* Added subtle hover effect for experience items */
+        padding: 5px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.02);
+        }
+      }
+    }
+    .upper-row,
+    .second-upper-row {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2px;
+      display: flex;
+    }
+    .job-title,
+    .degree,
+    .cert-title,
+    .recommendation-person {
+      color: $text-color;
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 500;
+      flex: 75%;
+    }
+   
+    .time,
+    .cert-url {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
+      flex: 25%;
+      /* Added font style for time/date elements */
+      font-style: italic;
+    }
+    .company,
+    .recommendation-role,
+    .university,
+    .cert-org {
+      margin-bottom: 10px;
+      color: $text-grey;
+    }
+  
+    .project-title {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 5px;
+      color: darken($theme-color, 15%);
+    }
+    .projects-section {
+      .intro {
+        margin-bottom: 30px;
+      }
+      .item {
+        margin-bottom: 15px;
+      }
+    }
+    .oss-section {
+      .intro {
+        margin-bottom: 30px;
+      }
+      .item {
+        margin-bottom: 15px;
+      }
+    }
+  
+    .publication-title {
+      font-size: 16px;
+      font-weight: 400;
+      color: $text-color;
+      margin-bottom: 1px;
+    }
+    .publication-authors {
+      font-style: italic;
+      color: $text-grey;
+      margin-bottom: 1px;
+    }
+    .publications-section {
+      .intro {
+        margin-bottom: 30px;
+      }
+      .item {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  
+  .skillset {
+    .item {
+      margin-bottom: 15px;
+      overflow: hidden;
+    }
+    .level-title {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+    .level-bar {
+      height: 12px;
+      background: $smoky-white;
+      /* Added border radius for skill bars */
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .level-bar-inner {
+      height: 12px;
+      background: lighten($theme-color, 15%);
+      /* Added transition for animated skill bars */
+      transition: width 1s ease-in-out;
+      border-radius: 12px;
+    }
+  }
+  
+  .footer {
+    padding-top: 30px;
+    .copyright {
+      line-height: 1.6;
+      color: $text-color-secondary;
+      font-size: 13px;
+    }
+  
+    .fa-heart {
+      color: $heart;
+      /* Added pulse animation for heart icon */
+      animation: pulse 2s infinite;
+    }
+  }
+  
+  /* Added keyframes for heart pulse animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Added print media query to optimize for printing */
+  @media print {
+    body {
+      padding: 0;
+      font-size: 12px;
+    }
+    
+    .wrapper {
+      box-shadow: none;
+      max-width: 100%;
+    }
+    
+    .footer {
+      display: none;
+    }
+  }
