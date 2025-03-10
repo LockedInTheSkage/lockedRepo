@@ -29,9 +29,6 @@ sidebar:
     - idiom: English
       level: Professional
 
-    # - idiom: Mandarin
-    #   level: One day
-
   interests:
     title: Interests
     info:
@@ -249,18 +246,20 @@ publications:
   #   authors: Edgar T. Irons
   #   conference: "Comm. ACM 4 (1961), 51–55"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Malene Thostrup Pedersen
-    email: malene.t.pedersen@ntnu.no
-    phone: 973 06 249
-    role: Technical Assistant Supervisor at NTNU
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Malene Thostrup Pedersen
+#     email: malene.t.pedersen@ntnu.no
+#     phone: 973 06 249
+#     role: Technical Assistant Supervisor at NTNU
+#     recommendation: |
+#       Tilgjengelig på forespørsel.
       
-  - person: Bjørn Tumyr
-    email: bjorn@rebel.no
-    phone: 41674454
-    role: REBEL "YODA"/Project Manager
+#   - person: Bjørn Tumyr
+#     email: bjorn@rebel.no
+#     phone: 41674454
+#     role: REBEL "YODA"/Project Manager
 
 skills:
   title: Skills &amp; Proficiency
