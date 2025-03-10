@@ -183,29 +183,19 @@ certifications:
   #     Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  # title: Projects
-  # intro: >
-  #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  # assignments:
-  # - title: Velocity
-  #   link: "#hook"
-  #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  # - title: DevStudio
-  #   link: "#"
-  #   tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  # - title: Tempo
-  #   link: "#"
-  #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  # - title: Atom
-  #   link: "#"
-  #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  # - title: Delta
-  #   link: "#"
-  #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  title: Projects
+  intro: >
+    Here are some fun projects I have worked on!
+  assignments:
+    - title: BroadBubble
+      link: "#"
+      tagline: "NetLogo project simulating social media networks and testing strategies to break information bubbles."
+    - title: TutorAI
+      link: "#"
+      tagline: "An interactive language agent that helps users learn academic subjects by processing uploaded textbooks and providing features like learning plans, flashcards, quiz generation, and study tracking."
+    - title: TrulsChecker
+      link: "#"
+      tagline: "A custom chess model specifically designed to defeat a friend named Truls."
 
 oss:
   # title: OSS Contributions
