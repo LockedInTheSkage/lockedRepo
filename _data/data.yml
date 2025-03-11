@@ -252,7 +252,7 @@ publications:
 #     role: REBEL "YODA"/Project Manager
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Technologies I like to work with
 
   toolset:
   - name: Python
@@ -274,4 +274,4 @@ skills:
     level: 70%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Forked codebase from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
