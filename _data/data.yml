@@ -42,7 +42,7 @@ sidebar:
       link:
 
 career-profile:
-  title: Career Profile
+  title: Something about me
   summary: |
     I love everything about computers, telecommunications, and effective learning methods. Throughout my studies,
     I have studied pedagogy and IT, with a specialization in databases. I know how to structure large amounts of data
@@ -52,8 +52,7 @@ career-profile:
     methods for storage and access to this data. This is what I offer, which is particularly relevant in AI projects or
     when using sensors that provide a continuous data stream.
     
-    I can conduct courses or presentations about technology that you either work with or use in the workplace. I am
-    adaptable to most types of information technology and can work within most sub-fields of technology. This is
+    I can develop and conduct courses, etraining, webinars or other materials - for use towards customers or in internal competence development. This is
     important if you want to digitize a workplace or upgrade it with better technology, as people need to know how to
     use their digital tools.
 
@@ -76,7 +75,7 @@ education:
 
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
   - role: Technical Assistant
     time: January 2022 - Present
