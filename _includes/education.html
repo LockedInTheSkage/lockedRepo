@@ -4,14 +4,14 @@
   <div class="education-container container-block">
 
     <h2 class="container-block-title">
-      <a href="https://www.ntnu.no/studier/mlreal">
-        {{ education.title }}
-      </a>
+      {{ education.title }}
     </h2>
 
     {% for graduation in education.info %}
     <div class="item">
-      <h4 class="degree">{{ graduation.degree }}</h4>
+      <a href={{graduation.link}}>
+        <h4 class="degree">{{ graduation.degree }}</h4>
+      </a>
       <h5 class="meta">{{ graduation.university }}</h5>
       <div class="time">{{ graduation.time }}</div>
     </div><!--//item-->
