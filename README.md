@@ -2,89 +2,42 @@
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+# Professional Portfolio Website
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+A clean, responsive portfolio website showcasing my professional experience, projects, and skills. This site serves as an interactive version of my CV/resume for potential employers and collaborators.
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+## Features
 
-## Installation
+- Responsive design that works across desktop, tablet, and mobile devices
+- Clean, modern aesthetic with intuitive navigation
+- Sections for work experience, education, projects, and skills
+- Contact information and social media integration
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+## Technology Stack
 
-Change all the details from one place: `_data/data.yml`.
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages for hosting
 
-### To preview/edit locally with docker
+## Setup and Deployment
 
-```sh
-docker-compose up
-```
+This portfolio is hosted on GitHub Pages, making updates and maintenance straightforward:
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+1. Clone this repository
+2. Make desired changes
+3. Commit and push to GitHub
+4. Changes will automatically be reflected on the live site
 
-### Local machine
+## Customization
 
-* Get the repo into your machine 
-
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
-
-* Install required ruby gems
-
-```bash
-bundle install
-```
-
-* Serve the site locally
-
-```bash
-bundle exec jekyll serve
-```
-
-* Navigate to `http://localhost:4000`
-
-
-## Skins
-
-There are 6 color schemes available:
-
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+Feel free to fork this repository and customize it for your own portfolio needs.
 
 ## Credits
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+This portfolio is based on the original design by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). The original template can be found at [her website](http://themes.3rdwavemedia.com/). The layout and structure have been maintained while adapting the content and styling to better suit my professional presentation.
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+## License
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+This project maintains the original licensing terms from the source material. Please refer to the LICENSE file for more information.
 
